@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "baby-creepers-justfatlard",
+	"version": "${version}",
+	"name": "Baby Creepers",
+	"description": "Baby creepers that grow out of the lawn: a creeper bursts into a fog of spores instead of a crater, the blast still hurts but breaks no block, and the grass it reaches sprouts half-size, quicker creepers that grow up in time, or stay small and friendly with a golden dandelion.",
+	"authors": [
+		"justfatlard"
+	],
+	"contact": {
+		"homepage": "https://github.com/fatlard1993/baby-creepers",
+		"sources": "https://github.com/fatlard1993/baby-creepers",
+		"issues": "https://github.com/fatlard1993/baby-creepers/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/baby-creepers-justfatlard/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"justfatlard.baby_creepers.Main"
+		]
+	},
+	"mixins": [
+		"baby-creepers-justfatlard.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loaderVersion}",
+		"minecraft": "${minecraftDependency}",
+		"java": ">=25",
+		"pandorical": ">=15.16.0",
+		"fabric-api": "${fabricApiVersion}"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.donate": "https://github.com/sponsors/fatlard1993"
+			}
+		}
+	}
+}

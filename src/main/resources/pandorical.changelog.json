@@ -1,0 +1,14 @@
+{
+	"overview": [
+		"Baby creepers, grown from the lawn: creepers burst into spores instead of craters, and the grass they reach sprouts babies."
+	],
+	"versions": {
+		"1.0.0": [
+			"A creeper's blast hurts as it always did but breaks no blocks, and leaves a green fog of spores where the crater would have been.",
+			"Grass and tall grass the fog reaches is sometimes infected: it puffs spores, and a baby creeper hatches where it was, either a minute or two later or, as often, not until the next night. Break or mow it first and nothing hatches.",
+			"Baby creepers are half-size, half the health, half again as fast, with half the blast. With Pandorical they are drawn as babies: a big head on a short body.",
+			"A creeper spawn egg used on a creeper hatches a baby creeper.",
+			"Baby creepers grow up after twenty minutes. A golden dandelion keeps one a baby and makes it friendly: it never goes after anyone, even someone who hits it. A second dandelion lets it go."
+		]
+	}
+}

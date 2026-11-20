@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "baby-creepers-gametest",
+	"version": "1.0.0",
+	"name": "Baby Creepers tests",
+	"description": "Loads the mod, blows up creepers in a meadow, and watches what grows.",
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"justfatlard.baby_creepers.gametest.SmokeTest",
+			"justfatlard.baby_creepers.gametest.BlastLeavesSpores",
+			"justfatlard.baby_creepers.gametest.InfectedGrassHatches",
+			"justfatlard.baby_creepers.gametest.DormantGrassWaitsForNight",
+			"justfatlard.baby_creepers.gametest.EggsHatchBabies",
+			"justfatlard.baby_creepers.gametest.BabiesLookLikeBabies",
+			"justfatlard.baby_creepers.gametest.BabiesGrowUp",
+			"justfatlard.baby_creepers.gametest.FriendlyBabies"
+		]
+	},
+	"depends": {
+		"baby-creepers-justfatlard": "*",
+		"fabric-client-gametest-api-v1": "*"
+	}
+}
