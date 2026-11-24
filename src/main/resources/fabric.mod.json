@@ -3,7 +3,7 @@
 	"id": "baby-creepers-justfatlard",
 	"version": "${version}",
 	"name": "Baby Creepers",
-	"description": "Baby creepers that grow out of the lawn: a creeper bursts into a fog of spores instead of a crater, the blast still hurts but breaks no block, and the grass it reaches sprouts half-size, quicker creepers that grow up in time, or stay small and friendly with a golden dandelion.",
+	"description": "Baby creepers that grow out of the lawn: creepers burst into spores instead of craters, and the grass they reach sprouts babies",
 	"authors": [
 		"justfatlard"
 	],
