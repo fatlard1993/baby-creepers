@@ -3,6 +3,9 @@
 		"Baby creepers, grown from the lawn: creepers burst into spores instead of craters, and the grass they reach sprouts babies."
 	],
 	"versions": {
+		"1.0.1": [
+			"Describes itself in one short line of what it adds."
+		],
 		"1.0.0": [
 			"A creeper's blast hurts as it always did but breaks no blocks, and leaves a green fog of spores where the crater would have been.",
 			"Grass and tall grass the fog reaches is sometimes infected: it puffs spores, and a baby creeper hatches where it was, either a minute or two later or, as often, not until the next night. Break or mow it first and nothing hatches.",
