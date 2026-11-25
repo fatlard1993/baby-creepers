@@ -45,8 +45,9 @@ public final class BlastLeavesSpores implements FabricClientGameTest {
 				for (int dx = -HALF; dx <= HALF; dx++) {
 					for (int dz = -HALF; dz <= HALF; dz++) level.setBlockAndUpdate(c.offset(dx, 0, dz), Blocks.SHORT_GRASS.defaultBlockState());
 				}
-				// A block for the blast to break, on the side away from the pig so it shields nothing.
-				level.setBlockAndUpdate(c.north(2), Blocks.COBBLESTONE.defaultBlockState());
+				// A block for the blast to break, on the side away from the pig so it shields nothing. Glass,
+				// because the grass under an opaque block dies back to dirt on its own within the test.
+				level.setBlockAndUpdate(c.north(2), Blocks.GLASS.defaultBlockState());
 				return c;
 			});
 
@@ -80,7 +81,7 @@ public final class BlastLeavesSpores implements FabricClientGameTest {
 				check(lost > 0F, "a grown creeper's blast did not hurt a pig " + PIG_DISTANCE + " blocks off");
 				check(level.getEntitiesOfClass(Creeper.class, area(center)).isEmpty(), "a creeper is still standing");
 
-				check(level.getBlockState(center.north(2)).is(Blocks.COBBLESTONE), "the blast broke the cobblestone");
+				check(level.getBlockState(center.north(2)).is(Blocks.GLASS), "the blast broke the glass");
 				int grass = 0, plants = 0;
 				for (int dx = -HALF; dx <= HALF; dx++) {
 					for (int dz = -HALF; dz <= HALF; dz++) {
