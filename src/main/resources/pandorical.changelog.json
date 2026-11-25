@@ -3,6 +3,9 @@
 		"Baby creepers, grown from the lawn: creepers burst into spores instead of craters, and the grass they reach sprouts babies."
 	],
 	"versions": {
+		"1.0.2": [
+			"The blast test's witness block is glass, so the grass under it stays grass."
+		],
 		"1.0.1": [
 			"Describes itself in one short line of what it adds."
 		],
